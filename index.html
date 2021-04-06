@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Task 7</title>
+</head>
+
+<body>
+    <img class="rectangle_right" src="./images/rectangle_right.png" alt="">
+    <img class="rectangle_left" src="./images/rectangle_left.png" alt="">
+
+    <div class="wrapper">
+         <div class="header">
+            <img src="./images/logo.svg" alt="LOGO">
+            <button class="btn_preorder_blue btn__feedback">Pre-order now</button>
+        </div>
+    </div>
+
+    <div class="wrapper main">
+        <div>
+            <h1>Typemaster <br> Keyboard</h1>
+            <p>Improve your productivity and gaming without breaking the bank. Upgrade to a high quality mechanical typing experience.</p>
+            <div>
+               <button class="btn_preorder_orange btn__feedback">Pre-order now</button>
+                <span>Release on 5/27</span> 
+            </div>
+            
+        </div>
+        <img class="keybord_desktop" src="./images/keybord.png" alt="keybord">
+        <img class="keybord_tablet" src="./images/keybord_tablet.png" alt="keybord">
+        <img class="keybord_mobile" src="./images/keybord_mobile.png" alt="keybord">
+    </div>
+
+    <div class="wrapper submain">
+        <div class="submain__images">
+            <img class="keybord_desktop" src="./images/keybord_orange.png" alt="keybord">
+            <img class="keybord_tablet" src="./images/keybord_orange_tablet.png" alt="keybord">
+            <img class="keybord_mobile" src="./images/keyboard_orange_mobile.png" alt="keybord">
+
+            <img class="keybord_desktop" src="./images/keybord_on_table.png" alt="keybord">
+            <img class="keybord_tablet" src="./images/keybord_on_table_tablet.png" alt="keybord">
+            <img class="keybord_mobile" src="./images/keybord_on_table_mobile.png" alt="keybord">
+
+        </div>
+        
+        <div class="submain__text">
+           <h2>mechanical<br>wireless<br>Keyboard</h2>
+            <p>The Typemaster keyboard boasts top-notch build and practical design. It offers a wide variety of switches and keycaps, along with reliable wireless connectivity.</p> 
+        </div>  
+    </div>
+
+    <div class="wrapper benefits">
+
+        <div class="benefits__item">
+           <img src="./images/monitor.svg" alt="">
+           <h3>HIGHLY <br> COMPATIBLE</h3>
+           <p>Easy to use and works well with all major computer brands, gaming consoles and mobile devices. Plug & play, no installation or driver needed.</p>
+        </div>
+
+        <div class="benefits__item">
+            <img src="./images/bluetooth.svg" alt="">
+            <h3>WIRELESS<br>WITH BLUETOOTH</h3>
+            <p>Powerful 2.4G RF technology allows you to connect the cordless keyboard from up to 30ft away. Simply plug the unifying receiver into your computer.</p>
+        </div>
+
+        <div class="benefits__item">
+            <img src="./images/battery.svg" alt="">
+            <h3>HIGH CAPACITY<br>BATTERY</h3>
+            <p>Equipped with a long-lasting built-in battery, you’ll never have to spend a dime on replaceable ones. Enjoy 40 hours of usage time between charges.</p>
+        </div>
+
+        <div class="benefits__item">
+            <img src="./images/rgb.svg" alt="">
+            <h3>RGB BACKLIT<br>MODES</h3>
+            <p>Choose from 4 backlight brightness levels and adjustable breathing speed. Each key glows intensely in the dark and helps you type in low light conditions.</p>
+        </div>
+    </div>
+
+    <div class="wrapper footer">
+        <div>Typemaster 2021  &nbsp |  &nbsp <span> All Rights Reserved </span></div>
+    </div>
+
+    <div class="modal__overlay" id="modal">
+        <div class="modal__feedback">
+        <div id="close" class="btn_close">&times;</div>
+        <h1 class="form__title">Feedback</h1>
+        <form class="form__feed" action="#">
+            <div class="form__input">
+                    <input id="name" class="input-item" placeholder="" name="name" type="text">
+                    <input class="input-item" placeholder="Phone number *" type="number">
+                    <input id="e-mail" class="input-item" placeholder="E-mail" type="email">
+            </div>
+            <button type="submit" class="form__btn" id="send">send</button>
+        </form>
+    </div>
+    </div>
+    
+
+    <script src="./scripts.js"></script>
+</body>
+</html>
